@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package builtin;
+
+message Object {
+  string field1 = 1;
+}
+
+message Function {
+  string field1 = 1;
+}
+
+message Date {
+  string field1 = 1;
+}
+
